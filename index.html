@@ -24,9 +24,14 @@ section{padding:90px 0;border-bottom:1px solid var(--rule)}.section-grid{display
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px}.filter-btn{border:1px solid var(--rule);background:transparent;color:var(--ink);padding:8px 15px;font-size:13px;font-weight:800;cursor:pointer;border-radius:999px;transition:.18s ease}.filter-btn:hover{border-color:var(--ink)}.filter-btn.active{background:var(--red);border-color:var(--red);color:#fff}
 
 /* ---- timeline ---- */
-.timeline{border-top:3px solid var(--ink)}.role{display:grid;grid-template-columns:180px 1fr;gap:35px;padding:35px 0;border-bottom:1px solid var(--rule)}.role.hidden{display:none}.date{font-size:13px;font-weight:800;color:var(--red)}.role.past .date{color:var(--muted)}.orgline{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:7px}.org{font-family:Georgia,"Times New Roman","Songti SC",serif;font-size:30px;line-height:1.2;color:var(--ink);margin:0;font-weight:700;letter-spacing:-.02em}.orgtag{border:1px solid var(--red);color:var(--red);font-size:11px;font-weight:800;padding:2px 8px;letter-spacing:.04em;white-space:nowrap}.live{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;color:var(--red);border:1px solid var(--red);padding:2px 9px;border-radius:999px;white-space:nowrap}.live i{width:6px;height:6px;border-radius:50%;background:var(--red);animation:pulse 1.6s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.22}}.role-title{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.5;color:var(--red);font-weight:800;letter-spacing:.02em;margin:0 0 18px}.role ul{margin:0;padding-left:18px}.role li{margin:8px 0}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.tag{border:1px solid var(--rule);padding:4px 9px;font-size:11px;font-weight:800;background:rgba(255,255,255,.25)}
+.timeline{border-top:3px solid var(--ink)}.role{display:grid;grid-template-columns:180px 1fr;gap:35px;padding:35px 0;border-bottom:1px solid var(--rule)}.role.hidden{display:none}.date{font-size:13px;font-weight:800;color:var(--red)}.role.past .date{color:var(--muted)}.orgline{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:7px}.org{font-family:Georgia,"Times New Roman","Songti SC",serif;font-size:30px;line-height:1.2;color:var(--ink);margin:0;font-weight:700;letter-spacing:-.02em}.orgtag{border:1px solid var(--red);color:var(--red);font-size:11px;font-weight:800;padding:2px 8px;letter-spacing:.04em;white-space:nowrap}.live{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;color:var(--red);border:1px solid var(--red);padding:2px 9px;border-radius:999px;white-space:nowrap}.live i{width:6px;height:6px;border-radius:50%;background:var(--red);animation:pulse 1.6s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.22}}.role-title{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.5;color:var(--red);font-weight:800;letter-spacing:.02em;margin:0 0 18px}.product-line{font-size:13px;color:var(--muted);margin:-10px 0 16px}.role ul{margin:0;padding-left:18px}.role li{margin:8px 0}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.tag{border:1px solid var(--rule);padding:4px 9px;font-size:11px;font-weight:800;background:rgba(255,255,255,.25)}
 
-.project-card{background:var(--ink);color:var(--paper);padding:46px;position:relative;overflow:hidden}.project-card:before{content:"01";position:absolute;right:25px;top:-25px;color:rgba(255,255,255,.06);font:140px Georgia,serif}.project-card h3{font:42px/1.1 Georgia,"Songti SC",serif;margin:0 0 8px}.project-card .sub{color:#ddbfc8;margin-bottom:25px}.project-card p{max-width:840px;color:#eadfd7}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:30px;border-top:1px solid rgba(255,255,255,.25)}.project-grid div{padding:20px 20px 0 0}.project-grid b{display:block;color:#fff;font-size:14px}.project-grid span{font-size:12px;color:#cdbfb7}
+/* ---- venture ---- */
+.project-card{background:var(--ink);color:var(--paper);padding:46px;position:relative;overflow:hidden}.project-card:before{content:"01";position:absolute;right:25px;top:-25px;color:rgba(255,255,255,.06);font:140px Georgia,serif}.card-org{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#f3b6c8;margin-bottom:14px;border:1px solid rgba(243,182,200,.45);padding:3px 10px;border-radius:999px}.project-card h3{font:42px/1.1 Georgia,"Songti SC",serif;margin:0 0 8px}.project-card .sub{color:#ddbfc8;margin-bottom:25px}.project-card p{max-width:840px;color:#eadfd7}.project-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:30px;border-top:1px solid rgba(255,255,255,.25)}.project-grid div{padding:20px 20px 0 0}.project-grid b{display:block;color:#fff;font-size:19px;font-family:Georgia,"Songti SC",serif}.project-grid span{font-size:12px;color:#cdbfb7}.role-line{margin:28px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.2);font-size:13px;color:#ddbfc8}.role-line b{color:#fff}
+
+.venture-grid{display:grid;grid-template-columns:repeat(3,1fr);background:rgba(255,255,255,.3);border:1px solid var(--rule);border-top:0}.v-block{padding:28px 28px 30px;border-right:1px solid var(--rule)}.v-block:last-child{border-right:0}.v-block h4{font:20px Georgia,"Songti SC",serif;margin:0 0 14px}.v-block .kpi{display:block;font-family:Georgia,"Songti SC",serif;font-size:29px;line-height:1.1;color:var(--red);letter-spacing:-.02em;margin-bottom:6px}.v-block small{display:block;color:var(--muted);font-size:12px;margin-bottom:14px}.v-block p{margin:0 0 10px;font-size:13.5px;color:#4a413b}.v-block p:last-child{margin-bottom:0}.v-block b{color:var(--ink)}
+
+.milestones{margin-top:38px;border-top:3px solid var(--ink);padding-top:26px}.milestones h4{font:24px Georgia,"Songti SC",serif;margin:0 0 18px}.milestones ol{margin:0;padding:0;list-style:none;counter-reset:m}.milestones li{position:relative;padding:0 0 16px 48px;counter-increment:m;border-bottom:1px solid rgba(201,184,170,.55);margin-bottom:16px;font-size:14.5px}.milestones li:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}.milestones li:before{content:counter(m,decimal-leading-zero);position:absolute;left:0;top:2px;font:800 13px Georgia,serif;color:var(--red);letter-spacing:.05em}.milestones b{color:var(--red)}
 
 /* ---- AI capability card ---- */
 .ai-card{background:var(--ink);color:var(--paper);padding:42px;margin-bottom:58px}.ai-card h3{font:32px/1.15 Georgia,"Songti SC",serif;margin:0 0 10px;color:#fff}.ai-card-head p{color:#e2d6cd;max-width:780px;margin:0 0 26px}.ai-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.22)}.ai-item{padding:20px 22px 0 0}.ai-item b{display:block;color:#fff;font-size:14px;margin-bottom:7px}.ai-item span{font-size:12.5px;color:#cdbfb7;line-height:1.6}.ai-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:28px;border-top:1px solid rgba(255,255,255,.16);padding-top:20px}.ai-tags span{border:1px solid rgba(255,255,255,.28);padding:4px 9px;font-size:11px;font-weight:800;color:#eadfd7}
@@ -37,9 +42,9 @@ section{padding:90px 0;border-bottom:1px solid var(--rule)}.section-grid{display
 footer{background:var(--ink);color:#cdbfb7;padding:25px 0;font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:20px}
 .menu{display:none;background:none;border:0;font-size:22px;cursor:pointer}
 
-@media(max-width:900px){.menu{display:block}.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:var(--paper);padding:20px 24px;border-bottom:1px solid var(--rule);flex-direction:column}.navlinks.open{display:flex}.cv{display:none}.hero-inner{grid-template-columns:1fr;gap:35px}.brief{max-width:520px}.metrics{grid-template-columns:repeat(2,1fr)}.section-grid{grid-template-columns:1fr;gap:22px}.skill-layout,.education,.ai-grid{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.project-grid div{border-bottom:1px solid rgba(255,255,255,.16);padding-bottom:17px}.contact-links{grid-template-columns:1fr}.role{grid-template-columns:1fr;gap:9px}}
-@media(max-width:560px){.wrap{width:min(100% - 28px,var(--max))}.nav{gap:12px}.brand span:last-child{display:none}.hero-inner{padding-top:54px}.hero{min-height:auto}.metrics{grid-template-columns:1fr}.metric{min-height:125px}.role{padding:27px 0}.project-card,.ai-card{padding:30px 23px}.facts{grid-template-columns:1fr}.contact h2{font-size:48px}.controls{margin-left:auto}}
-@media print{header,.actions,.menu,.filters{display:none!important}.role.hidden{display:grid!important}body{background:white}.hero{min-height:auto;background:#222!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.hero-inner,section{padding:38px 0}.metrics{break-inside:avoid}.role,.project-card{break-inside:avoid}}
+@media(max-width:900px){.menu{display:block}.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:var(--paper);padding:20px 24px;border-bottom:1px solid var(--rule);flex-direction:column}.navlinks.open{display:flex}.cv{display:none}.hero-inner{grid-template-columns:1fr;gap:35px}.brief{max-width:520px}.metrics{grid-template-columns:repeat(2,1fr)}.section-grid{grid-template-columns:1fr;gap:22px}.skill-layout,.education,.ai-grid,.venture-grid{grid-template-columns:1fr}.v-block{border-right:0;border-bottom:1px solid var(--rule)}.v-block:last-child{border-bottom:0}.project-grid{grid-template-columns:repeat(2,1fr)}.project-grid div{border-bottom:1px solid rgba(255,255,255,.16);padding-bottom:17px}.contact-links{grid-template-columns:1fr}.role{grid-template-columns:1fr;gap:9px}}
+@media(max-width:560px){.wrap{width:min(100% - 28px,var(--max))}.nav{gap:12px}.brand span:last-child{display:none}.hero-inner{padding-top:54px}.hero{min-height:auto}.metrics{grid-template-columns:1fr}.metric{min-height:125px}.role{padding:27px 0}.project-card,.ai-card{padding:30px 23px}.facts{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.contact h2{font-size:48px}.controls{margin-left:auto}}
+@media print{header,.actions,.menu,.filters{display:none!important}.role.hidden{display:grid!important}body{background:white}.hero{min-height:auto;background:#222!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.hero-inner,section{padding:38px 0}.metrics{break-inside:avoid}.role,.project-card,.v-block,.milestones li{break-inside:avoid}}
 </style>
 </head>
 <body data-lang="zh">
@@ -85,7 +90,7 @@ footer{background:var(--ink);color:#cdbfb7;padding:25px 0;font-size:12px}.footer
 <div class="metric"><strong>24</strong><span><span class="lang-zh">家中国内地企业案例研究</span><span class="lang-en">Mainland Chinese enterprises researched</span></span></div>
 <div class="metric"><strong>89</strong><span><span class="lang-zh">份有效用户问卷与数据分析</span><span class="lang-en">Valid user surveys analysed</span></span></div>
 <div class="metric"><strong>¥35K</strong><span><span class="lang-zh">全英文路演协助获得项目资金</span><span class="lang-en">Project funding supported through an English pitch</span></span></div>
-<div class="metric"><strong>50+</strong><span><span class="lang-zh">份交易与合规文件核验归档</span><span class="lang-en">Transaction and compliance files reviewed</span></span></div>
+<div class="metric"><strong>319</strong><span><span class="lang-zh">人：本人领导组织的社团运营规模</span><span class="lang-en">Members in the student society I lead and run</span></span></div>
 </div>
 
 <section id="profile">
@@ -168,13 +173,14 @@ footer{background:var(--ink);color:#cdbfb7;padding:25px 0;font-size:12px}.footer
 <div class="date">2026.03 — <span class="lang-zh">至今</span><span class="lang-en">Present</span></div>
 <div>
 <div class="orgline">
-<div class="org">Moora AI</div>
+<div class="org"><span class="lang-zh">杭州字在科技有限公司</span><span class="lang-en">Hangzhou Zizai Technology Co., Ltd.</span></div>
 <span class="orgtag"><span class="lang-zh">初创</span><span class="lang-en">Startup</span></span>
 <span class="live"><i></i><span class="lang-zh">进行中</span><span class="lang-en">Ongoing</span></span>
 </div>
 <h3 class="role-title"><span class="lang-zh">联合创始人｜投融资与财务负责人</span><span class="lang-en">Co-founder · Finance &amp; Fundraising</span></h3>
-<ul class="lang-zh"><li>围绕「AI 数字化书写档案」参与产品定位与商业模式设计，规划长期记忆、成长分析、会员及增值服务路径。</li><li>拆解大模型 API 计费与 Token 消耗，对模型选择、上下文压缩与调用频率进行敏感性分析，支撑定价、毛利率与财务预测。</li><li>完成行业竞品、TAM、收入预测、BP、路演材料与投资人问答体系；协助全英文路演获得 <strong>3.5 万元</strong>项目资金。</li><li>推动海外合作接洽与 AI 社媒增长联合方案，完成<strong>美国、英国等 15 个国家和地区的苹果 App Store 上架</strong>；协助团队获得<strong>奇绩创坛秋季创业营面试</strong>。</li></ul>
-<ul class="lang-en"><li>Helped define the product positioning and business model behind an AI-powered writing archive, covering long-term memory, growth analytics and membership/value-added services.</li><li>Modelled LLM API and token costs, running sensitivity analysis on model selection, context compression and call frequency to support pricing, gross margin and financial forecasts.</li><li>Built competitive intelligence, TAM, revenue projections, BP, pitch deck and investor Q&amp;A; supported an English-language pitch that secured RMB 35,000 in project funding.</li><li>Advanced overseas partnership discussions and a joint AI social-media growth plan; delivered the App Store launch across 15 countries and regions including the US and UK, and helped the team secure an interview for the MiraclePlus Autumn Startup Camp.</li></ul>
+<p class="product-line"><span class="lang-zh">主力产品：Moora AI — 面向全球书法爱好者的 AI 书法成长与创作软件</span><span class="lang-en">Flagship product: Moora AI — an AI calligraphy growth and creation app for enthusiasts worldwide</span></p>
+<ul class="lang-zh"><li>围绕主力产品 Moora AI 参与产品定位与商业模式设计，规划长期记忆、成长分析、会员及增值服务路径。</li><li>拆解大模型 API 计费与 Token 消耗，对模型选择、上下文压缩与调用频率进行敏感性分析，支撑定价、毛利率与财务预测。</li><li>完成行业竞品、TAM、收入预测、BP、路演材料与投资人问答体系；协助全英文路演获得 <strong>3.5 万元</strong>项目资金。</li><li>推动海外合作接洽与 AI 社媒增长联合方案，完成<strong>美国、英国等 15 个国家和地区的苹果 App Store 上架</strong>，用户规模突破 100 人并出现<strong>真实付费</strong>；协助团队获得<strong>奇绩创坛秋季创业营面试</strong>（对应价值 200 万元融资）。</li></ul>
+<ul class="lang-en"><li>Helped define the product positioning and business model behind the flagship product Moora AI, covering long-term memory, growth analytics and membership/value-added services.</li><li>Modelled LLM API and token costs, running sensitivity analysis on model selection, context compression and call frequency to support pricing, gross margin and financial forecasts.</li><li>Built competitive intelligence, TAM, revenue projections, BP, pitch deck and investor Q&amp;A; supported an English-language pitch that secured RMB 35,000 in project funding.</li><li>Advanced overseas partnership discussions and a joint AI social-media growth plan; delivered the App Store launch across 15 countries and regions including the US and UK, growing the user base past 100 with <strong>real overseas payments</strong>; helped the team secure an interview for the MiraclePlus Autumn Startup Camp (linked to RMB 2M in potential funding).</li></ul>
 <div class="tags"><span class="tag">AI Product</span><span class="tag">Financial Model</span><span class="tag">Fundraising</span><span class="tag">Global Launch</span></div>
 </div>
 </article>
@@ -227,7 +233,61 @@ footer{background:var(--ink);color:#cdbfb7;padding:25px 0;font-size:12px}.footer
 </section>
 
 <section id="project">
-<div class="wrap section-grid"><div class="kicker">03 — Venture</div><div><h2 class="section-title"><span class="lang-zh">把 AI 产品语言，<br>翻译成商业语言。</span><span class="lang-en">Translating AI products<br>into business value.</span></h2><article class="project-card"><h3>Moora AI</h3><div class="sub"><span class="lang-zh">AI 数字化书写档案与长期成长陪伴</span><span class="lang-en">AI-powered writing archive and long-term growth companion</span></div><p class="lang-zh">从用户作品、创作动机、情绪背景与技法反馈出发，形成可持续沉淀的数字档案。我的工作集中在用户验证、单位经济模型、竞品研究、商业化与投融资材料，让产品价值同时经得起用户需求和资本逻辑的检验。</p><p class="lang-en">A persistent digital archive built around users' writing, motivations, emotional context and technique. My role spans user validation, unit economics, competitive intelligence, monetisation and fundraising materials.</p><div class="project-grid"><div><b>89 <span class="lang-zh">份问卷</span><span class="lang-en">surveys</span></b><span><span class="lang-zh">验证路径、需求、行为与付费意愿</span><span class="lang-en">Usage, needs, behaviour and willingness to pay</span></span></div><div><b>5 <span class="lang-zh">款竞品</span><span class="lang-en">competitors</span></b><span><span class="lang-zh">定位、记忆、留存、付费与出海拆解</span><span class="lang-en">Positioning, memory, retention and monetisation</span></span></div><div><b>15 <span class="lang-zh">个国家与地区</span><span class="lang-en">countries &amp; regions</span></b><span><span class="lang-zh">美国、英国等苹果 App Store 上架</span><span class="lang-en">App Store launch incl. the US and UK</span></span></div></div></article></div></div>
+<div class="wrap section-grid">
+<div class="kicker">03 — Venture</div>
+<div>
+<h2 class="section-title"><span class="lang-zh">把 AI 产品语言，<br>翻译成商业语言。</span><span class="lang-en">Translating AI products<br>into business value.</span></h2>
+
+<article class="project-card">
+<div class="card-org"><span class="lang-zh">杭州字在科技有限公司</span><span class="lang-en">Hangzhou Zizai Technology Co., Ltd.</span></div>
+<h3>Moora AI</h3>
+<div class="sub"><span class="lang-zh">面向全球书法爱好者的 AI 书法成长与创作软件</span><span class="lang-en">An AI calligraphy growth and creation app for enthusiasts worldwide</span></div>
+<p class="lang-zh">围绕真实纸面书写，提供内容推荐、个性化练习、创作支持、作品点评、作品档案与书友社区，把「看到内容 → 决定写法 → 真实书写 → 获得反馈 → 保存记录 → 再次书写」连成完整闭环。Moora 不是在生成内容，而是在为每一个长期书写者建立一份持续生长的个人书写史。</p>
+<p class="lang-en">Built around real paper-and-ink writing, Moora connects content discovery, personalised practice, creation support, work critique, portfolio archiving and a calligrapher community into a single loop—"see content, decide how to write, actually write, get feedback, keep the record, write again." It is not generating content; it is building a personal writing history that keeps growing for every long-term writer.</p>
+<div class="project-grid">
+<div><b>89 <span class="lang-zh">份问卷</span><span class="lang-en">surveys</span></b><span><span class="lang-zh">验证需求、行为与付费意愿</span><span class="lang-en">Needs, behaviour and willingness to pay</span></span></div>
+<div><b>85.7%</b><span><span class="lang-zh">认为 AI 写法建议具有实际价值</span><span class="lang-en">Found the AI suggestions genuinely useful</span></span></div>
+<div><b>15 <span class="lang-zh">个国家与地区</span><span class="lang-en">countries &amp; regions</span></b><span><span class="lang-zh">苹果 App Store 上架</span><span class="lang-en">Live on the Apple App Store</span></span></div>
+<div><b>100+</b><span><span class="lang-zh">用户规模，海外已产生真实付费</span><span class="lang-en">Users, with real overseas payments</span></span></div>
+</div>
+<p class="role-line"><span class="lang-zh"><b>我的职责</b>：路演组织与准备、App 上架与收费开通、财务模型与预算成本管理、公司运营与合规。</span><span class="lang-en"><b>My remit</b>: organising pitch preparation, App Store launch and payment setup, financial modelling and budget/cost control, corporate operations and compliance.</span></p>
+</article>
+
+<div class="venture-grid">
+<div class="v-block">
+<h4><span class="lang-zh">市场空间</span><span class="lang-en">Market</span></h4>
+<span class="kpi">1,500–2,500<span class="lang-zh"> 万人</span><span class="lang-en">M</span></span>
+<small><span class="lang-zh">全球核心中文书写爱好者</span><span class="lang-en">Core Chinese-writing enthusiasts worldwide</span></small>
+<p><span class="lang-zh">按人均年消费 10–20 美元测算，潜在年度市场 <b>10.8–21.6 亿元</b>；当前可服务市场约 <b>5.4–10.8 亿元 / 年</b>，覆盖中国大陆、港澳台、新马与美加澳华语人群。</span><span class="lang-en">At USD 10–20 per user per year, the potential annual market is <b>RMB 1.08–2.16bn</b>; the currently serviceable market is roughly <b>RMB 0.54–1.08bn</b>, covering mainland China, Hong Kong/Macau/Taiwan, Singapore, Malaysia, the US, Canada and Australia.</span></p>
+<p><span class="lang-zh">口径：以可触达人群判断，而非人口总量。</span><span class="lang-en">Basis: reachable audience rather than total population.</span></p>
+</div>
+<div class="v-block">
+<h4><span class="lang-zh">竞争位置</span><span class="lang-en">Competitive Position</span></h4>
+<p><span class="lang-zh">传统字帖工具围绕单次任务，AI 书法产品解决单次点评，通用大模型并非书法专用，真人老师难以覆盖每一次日常书写。</span><span class="lang-en">Traditional tools handle single tasks; AI calligraphy products handle one-off critique; general-purpose LLMs are not calligraphy-specific; human teachers cannot cover every daily session.</span></p>
+<p><span class="lang-zh"><b>Moora 的差异化在「长期过程 × 理解用户」</b>：用户书写次数越多，产品对这个人的判断越准。</span><span class="lang-en"><b>Moora sits at "long-term process × understanding the user"</b>: the more a user writes, the better the product understands them.</span></p>
+</div>
+<div class="v-block">
+<h4><span class="lang-zh">商业模式</span><span class="lang-en">Business Model</span></h4>
+<span class="kpi">128–228<span class="lang-zh"> 元/年</span><span class="lang-en"> RMB/yr</span></span>
+<small><span class="lang-zh">国内会员 · 海外 24.99–39.99 美元/年</span><span class="lang-en">Overseas: USD 24.99–39.99 / year</span></small>
+<p><span class="lang-zh">会员订阅为核心收入，年度实体作品集与专业服务构成第二、第三收入，B 端书画机构数字化订单用于早期场景验证。</span><span class="lang-en">Membership is the core revenue line; an annual printed portfolio and professional services form the second and third, with B2B orders from calligraphy institutions validating early scenarios.</span></p>
+<p><span class="lang-zh">单用户月均 AI 成本 <b>0.33 元</b>，综合毛利率约 <b>70%</b>——AI 调用不是主要成本瓶颈，核心变量在于留存与付费。</span><span class="lang-en">Average AI cost per user is <b>RMB 0.33/month</b> with a blended gross margin of around <b>70%</b>: model calls are not the bottleneck—retention and conversion are.</span></p>
+</div>
+</div>
+
+<div class="milestones">
+<h4><span class="lang-zh">进展与里程碑</span><span class="lang-en">Progress &amp; Milestones</span></h4>
+<ol>
+<li><span class="lang-zh">诺丁汉大学创客实验室暑期创业营路演 <b>第 2 名</b>，获得 <b>¥35,000</b> 早期资金支持。</span><span class="lang-en">2nd place at the University of Nottingham Maker Lab summer startup camp pitch, securing <b>RMB 35,000</b> in early funding.</span></li>
+<li><span class="lang-zh">软件上线 <b>15 个国家和地区</b>苹果 App Store；用户规模<b>破百</b>，海外端已出现<b>真实付费用户</b>。</span><span class="lang-en">Launched on the Apple App Store in <b>15 countries and regions</b>; the user base passed <b>100</b>, with <b>real paying users</b> overseas.</span></li>
+<li><span class="lang-zh"><b>S 创 2026 年度盛会</b>初创组出展（光年区 <b>C08</b> 展位）。</span><span class="lang-en">Exhibited in the startup track at <b>S-Chuang 2026</b> annual summit (Lightyear Zone, booth <b>C08</b>).</span></li>
+<li><span class="lang-zh"><b>奇绩创坛秋季创业营</b>面试邀请，对应价值 <b>¥200 万元</b>融资。</span><span class="lang-en">Invited to interview for the <b>MiraclePlus Autumn Startup Camp</b>, linked to <b>RMB 2M</b> in potential funding.</span></li>
+<li><span class="lang-zh">跑通「推荐—书写—完成—记录」核心行为链，并获得宁波居墨书画院等机构的商业订单与合作共创。</span><span class="lang-en">Validated the core "recommendation → writing → completion → record" behaviour chain, with commercial orders and co-creation partnerships from institutions such as Ningbo Jumo Calligraphy Academy.</span></li>
+</ol>
+</div>
+
+</div>
+</div>
 </section>
 
 <section id="skills">
@@ -311,7 +371,7 @@ document.querySelectorAll('.copy-btn').forEach(function(btn){
     }
   });
 });
-/* close mobile menu after click */
+/* close mobile menu after clicking a nav link */
 document.querySelectorAll('.navlinks a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('.navlinks').classList.remove('open');});});
 </script>
 </body>
